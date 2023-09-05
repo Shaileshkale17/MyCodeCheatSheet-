@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 56px;
+}
+
+.logo img {
+  width: 32px;
+}
+
+.container {
+  /* background-color: red; */
+  width: 50vw;
+  padding: 32px 0;
+  margin: auto;
+}
+
+.toolbar-item  {
+  cursor: pointer !important;
+  color: #bbb;
+  margin-left: 10px !important;
+}
+.toolbar-item:hover {
+  color: #fff !important;
+}
